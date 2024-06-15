@@ -15,7 +15,7 @@ export const Sequence = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.1s, color 0.1s;
 
     &[color='green'] {
       background-color: green;
