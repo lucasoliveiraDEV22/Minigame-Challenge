@@ -63,7 +63,6 @@ const Game = () => {
       errorSound.play();
       setGameOver(true);
       setResult('Você pressionou a tecla errada!');
-      setKeyColors((prev) => [...prev, 'red']);
     }
   };
 

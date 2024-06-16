@@ -11,7 +11,12 @@ const Sequence = ({ sequence, currentIndex, pressedKeys, keyColors }) => {
           isActive={index === currentIndex}
           color={pressedKeys[index] ? keyColors[index] : 'default'}
           style={{
-            color: index === currentIndex ? '#fff' : '#2F3349',
+            color:
+              pressedKeys[index] && keyColors[index] === 'green'
+                ? '#fff'
+                : index === currentIndex
+                ? '#fff'
+                : '#2F3349',
             backgroundColor: pressedKeys[index]
               ? keyColors[index]
               : index === currentIndex

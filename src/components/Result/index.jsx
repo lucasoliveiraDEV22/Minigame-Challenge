@@ -11,7 +11,7 @@ const Result = ({ result, onRestart }) => {
 };
 
 Result.propTypes = {
-  result: PropTypes.string,
+  result: PropTypes.string.isRequired,
   onRestart: PropTypes.any
 };
 export default Result;

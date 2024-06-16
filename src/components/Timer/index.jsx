@@ -11,6 +11,6 @@ const Timer = ({ timeLeft }) => {
 
 
 Timer.propTypes = {
-    timeLeft : PropTypes.number
+    timeLeft : PropTypes.number.isRequired
 }
 export default Timer;

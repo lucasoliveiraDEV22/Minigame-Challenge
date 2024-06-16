@@ -19,12 +19,7 @@ export const Sequence = styled.div`
 
     &[color='green'] {
       background-color: green;
-      color: white;
-    }
-
-    &[color='red'] {
-      background-color: red;
-      color: white;
+      color: #f0f0f0;
     }
   }
 `;
